@@ -1,0 +1,61 @@
+body {
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    background-image: url("../images/forest.jpg");
+    background-color: #cccccc;
+}
+
+.title {
+    margin: 5% 0 0 0;
+    background-color: #003b00;
+    color: white;
+    font-weight: bold;
+    height: 35px;
+    vertical-align: middle;
+    border-radius: 10px;
+    font-size: 20px;
+    opacity: 0.80;
+}
+
+.d-input {
+    background-color: #003b00;
+    border-top-color: #002200;
+    border-top-width: 5px;
+    opacity: 0.85;
+    height: 70px;
+    color: white;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.text {
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.btn-primary {
+    font-size: 16px;
+    border-top-color: #4542d1;
+    border-top-width: 5px;
+    border-radius: 20px;
+    font-weight: bold;
+    height: 45px;
+    opacity: 0.97;
+}
+
+label {
+    vertical-align: middle;
+}
+
+.cuerpo {
+    margin-top: 180px;
+}
+
+.btn-info {
+    font-weight: bold;
+    font-size: 15px;
+    border-radius: 60px;
+    margin-right: 330px;
+}

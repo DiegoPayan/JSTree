@@ -1,0 +1,73 @@
+<html>
+    <head>
+        <title>
+            JSTree | Diego Payan
+        </title>
+        <link rel="icon" href="images/tree.png">
+        <link rel="stylesheet" href="bootstrap/4.0.0-alpha.6/css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <div class="col-md-12 col-sm-12 col-12 row cuerpo">
+            <div class="col-md-4 col-sm-4 col-4"></div>
+            <div class="title col-md-4 col-sm-4 col-4">
+                <div class="col-md-12 col-sm-12 col-12 text-center">
+                    Recorrido de árboles binarios
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-4 col-4"></div>
+        </div>
+        <div class="col-md-12 col-sm-12 col-12 row mt-3">
+            <div class="col-md-2 col-sm-2 col-2"></div>
+            <div class="col-md-8 col-sm-8 col-8">
+                <div class="card d-input row">
+                    <div class="card-body mt-3 row">
+                        <div class="col-md-2 col-sm-12 col-2 mt-2 text-center">
+                            <label class="ml-3 text">Ingrese expresión:</label>
+                        </div>
+                        <div class="col-md-9 col-sm-12 col-9">
+                            <input type="text" class="form-control" id="txtExpresion">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2 col-sm-2 col-2"></div>
+        </div>
+        <div class="col-md-12 col-sm-12 col-12 row mt-3">
+            <div class="col-md-2 col-sm-2 col-2"></div>
+            <div class="col-md-8 col-sm-8 col-8 row">
+                <div class="col-md-4 col-sm-12 col-4">
+                    <button class="button btn-primary btn btn-block" onClick="nuevoArbol(this);" data-name="preorden">PreOrden</button>
+                </div>
+                <div class="col-md-4 col-sm-12 col-4">
+                    <button class="button btn-primary btn btn-block" onClick="nuevoArbol(this);" data-name="inorden">InOrden</button>
+                </div>
+                <div class="col-md-4 col-sm-12 col-4">
+                    <button class="button btn-primary btn btn-block" onClick="nuevoArbol(this);" data-name="postorden">PostOrden</button>
+                </div>
+            </div>
+            <div class="col-md-2 col-sm-2 col-2"></div>
+        </div>
+        <div class="col-md-12 col-sm-12 col-12 mt-3 row">
+            <div class="col-md-2 col-sm-2 col-2"></div>
+            <div class="col-md-8 col-sm-8 col-8">
+                <div class="card d-input row">
+                    <div class="card-body row">
+                        <div class="col-md-2 col-sm-12 col-2 ml-3 text-center">
+                            <label class="mt-4">Recorrido del árbol:</label>
+                        </div>
+                        <div class="col-md-9 col-sm-12 col-9 mt-3">
+                            <input type="text" class="form-control" disabled="disabled" id="txtResultado">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2 col-sm-2 col-2"></div>
+        </div>
+        <div class="text-right col-md-12 col-sm-2 col-12 mt-3">
+            <button class="btn btn-info" onClick="info();">?</button>
+        </div>
+    </body>
+    <script src="bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"></script>
+    <script src="js/action.js"></script>
+</html>
